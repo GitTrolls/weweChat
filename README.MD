@@ -7,9 +7,9 @@
   - [x] Send Message
 - [x] Chat Room
   - [x] Show correct contact
-  - [ ] Show members
+  - [x] Show members
   - [ ] Add / Remove member
-  - [x] Create chat room
+  - [ ] Create chat room
 - [x] Various message
   - [x] Text
   - [x] Image
