@@ -27,17 +27,14 @@ $ npm run dev
 ```
 
 Generate the binary:
-* For Linux 
 ```
-$ npm run package-linux
-```
-* For Mac
-```
-$ npm run package-mac
+$ npm run package
 ```
 After that, you will see the binary in `./release` folder
 
 ### TODO
+- [ ] Windows support
+- [ ] Linux support
 - [x] Sticky on top
 - [x] Delete chat session
 - [x] Mark as Read

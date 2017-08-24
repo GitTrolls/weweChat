@@ -1,6 +1,6 @@
 
 import fs from 'fs';
-import { app, BrowserWindow, Tray, Menu, ipcMain, shell } from 'electron';
+import { app, powerMonitor, BrowserWindow, Tray, Menu, ipcMain, shell } from 'electron';
 import windowStateKeeper from 'electron-window-state';
 import notifier from 'node-notifier';
 
@@ -333,6 +333,10 @@ const createMainWindow = () => {
         shell.openExternal(map);
     });
 
+    powerMonitor.on('resume', () => {
+        mainWindow.webContents.send('os-resume');
+    });
+
     createMenu();
 
     [imagesCacheDir, voicesCacheDir].map(e => {
@@ -343,7 +347,7 @@ const createMainWindow = () => {
 };
 
 app.setName(pkg.name);
-app.dock && app.dock.setIcon(`${__dirname}/src/assets/images/dock.png`);
+app.dock.setIcon(`${__dirname}/src/assets/images/dock.png`);
 
 app.on('ready', createMainWindow);
 app.on('activate', e => {
