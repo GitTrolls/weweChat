@@ -33,6 +33,8 @@ $ npm run package
 After that, you will see the binary in `./release` folder
 
 ### TODO
+- [ ] Windows support
+- [ ] Linux support
 - [x] Sticky on top
 - [x] Delete chat session
 - [x] Mark as Read
