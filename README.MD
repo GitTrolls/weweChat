@@ -40,7 +40,7 @@ $ brew cask install wewechat
 ```
 
 #### Linux
-[Download](https://github.com/trazyn/weweChat/releases/download/)
+[Download](https://github.com/trazyn/weweChat/releases)
 Centos/RHEL please download `.rpm` packages.
 Debian/Ubuntu please download `.deb` pacages.
 Other linux distribution please download `.AppImage` packages.
@@ -152,7 +152,7 @@ Preferences            | <kbd>Cmd</kbd> <kbd>,</kbd>
 - [ ] Chat bot
 
 ### FAQ
-- ~~`Mac` 上如何修改图标，请参考 #39（另外问下，有没屌大的或者胸大的帮忙设计一个图标啊）~~
+- `Mac` 上如何修改图标，请参考 #39（另外问下，有没屌大的或者胸大的帮忙设计一个图标啊）
 - 关于历史记录的问题请参考 #30
 
 
