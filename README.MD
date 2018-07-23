@@ -2,13 +2,13 @@
 
 <img src="https://github.com/trazyn/weweChat/blob/master/resource/128x128.png" />
 
-> Icon by [honey4809](https://github.com/honey4809)
+> Icon by [octiviotti](https://octiviotti.deviantart.com/)
 
-[![Current Release](https://img.shields.io/github/release/trazyn/weweChat.svg?style=flat-square)](https://github.com/trazyn/ieaseMusic/releases)
-[![Travis CI status](https://img.shields.io/travis/trazyn/weweChat/dev.svg?style=flat-square)](https://travis-ci.org/trazyn/weweChat/branches)
-[![Dependencies Status](https://david-dm.org/trazyn/weweChat/status.svg?style=flat-square)](https://david-dm.org/trazyn/weweChat)
-[![DevDependencies Status](https://david-dm.org/trazyn/weweChat/dev-status.svg?style=flat-square)](https://david-dm.org/trazyn/weweChat?type=dev)
-[![JS Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
+[![dependencies Status](https://david-dm.org/trazyn/weweChat/status.svg)](https://david-dm.org/trazyn/weweChat)
+[![devDependencies Status](https://david-dm.org/trazyn/weweChat/dev-status.svg?style=flat-square)](https://david-dm.org/trazyn/weweChat?type=dev)
+[![Build Status](https://travis-ci.org/trazyn/weweChat.svg?branch=master)](https://travis-ci.org/trazyn/weweChat)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/trazyn/weweChat/pulls)
 
 Unofficial WeChat client built with React, MobX and Electron.
 
